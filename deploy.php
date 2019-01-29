@@ -24,6 +24,7 @@ add('writable_dirs', []);
 
 host('146.83.119.10')
 	->user('deployer')
+	->port (587)
     ->identityFile('~/.ssh/deployerkey')
     ->set('deploy_path', '/var/www/html/laravel-app'); 
     
