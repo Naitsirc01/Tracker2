@@ -4,7 +4,7 @@ namespace Deployer;
 require 'recipe/laravel.php';
 
 // Project name
-set('application', 'tracker');
+set('application', 'tracker2');
 
 // Project repository
 set('repository', 'git@github.com:Naitsirc01/Tracker2.git');
