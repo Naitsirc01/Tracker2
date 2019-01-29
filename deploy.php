@@ -22,7 +22,7 @@ add('writable_dirs', []);
 
 // Hosts
 
-host('146.83.119.10')
+host('146.83.123.124')
 	->user('deployer')
 	->port (587)
     ->identityFile('~/.ssh/deployerkey')
