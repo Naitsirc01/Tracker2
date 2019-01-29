@@ -7,7 +7,7 @@ require 'recipe/laravel.php';
 set('application', 'tracker');
 
 // Project repository
-set('repository', 'git@github.com:RicardoP0/Tracker.git');
+set('repository', 'git@github.com:Naitsirc01/Tracker2.git');
 
 // [Optional] Allocate tty for git clone. Default value is false.
 set('git_tty', true); 
