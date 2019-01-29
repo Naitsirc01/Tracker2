@@ -10,7 +10,7 @@ set('application', 'tracker2');
 set('repository', 'git@github.com:Naitsirc01/Tracker2.git');
 
 // [Optional] Allocate tty for git clone. Default value is false.
-set('git_tty', true); 
+set('git_tty', false); 
 
 // Shared files/dirs between deploys 
 add('shared_files', []);
@@ -22,9 +22,10 @@ add('writable_dirs', []);
 
 // Hosts
 
-host('146.83.123.124')
+host('146.83.119.10')
 	->user('deployer')
 	->port (587)
+	->multiplexing(false)
     ->identityFile('~/.ssh/deployerkey')
     ->set('deploy_path', '/var/www/html/laravel-app'); 
     
